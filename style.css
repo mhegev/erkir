@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+body{
+background-color: brown;
+}
+
+.wrapper{
+    background-color: rgb(rgb(88, 30, 30));
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 50%;
+}
+input{
+    position: absolute;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 900;
+    background-color: bisque;
+    color: blueviolet;
+    padding: 20px;
+}
+
+input::placeholder{
+    text-align: center;
+    color: brown;
+    font-size: 18px;
+}
+
+#left_1{
+    padding: 45px;
+    top: 5px;
+    right: 40%;
+}
+
+#left_2{
+    width: 150px;
+    top: 60px;
+    right: 65%;
+}
+#left_3{
+    width: 150px;
+    top: 145px;
+    right: 80%;
+}
+#left_4{
+    width: 150px;
+    top: 240px;
+    right: 85%;
+}
+#left_5{
+    width: 150px;
+    top: 335px;
+    right: 80%;
+}
+#left_6{
+    width: 150px;
+    top: 415px;
+    right: 65%;
+}
+#right_1{
+    width: 150px;
+    top: 60px;
+    right: 20%;
+}
+#right_2{
+    width: 150px;
+    top: 415px;
+    right: 20%;
+}
+#right_3{
+    width: 150px;
+    top: 335px;
+    right: 5%;
+}
+#right_4{
+    width: 150px;
+    top: 240px;
+    right: 1%;
+}
+#right_5{
+    width: 150px;
+    top: 145px;
+    right: 5%;
+}
+
+button{
+    position: absolute;
+    padding: 45px;
+    top: 450px;
+    right: 41%;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 900;
+    background-color: bisque;
+    color: blueviolet;
+}
+#button{
+    padding: 45px;
+    top: 5px;
+    right: 40%;
+}
+
+h1{
+    background-color: red;
+}
+
+#answer{
+    font-size: 35px;
+    position: absolute;
+    top:360px;
+    right: 45%;
+}
+
+#quality{
+    font-size: 35px;
+    position: absolute;
+    top: 260px;
+    right: 40%;
+}
